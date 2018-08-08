@@ -1,5 +1,5 @@
 header{
-    width: 1140px;
+    width: 1114px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
@@ -8,7 +8,9 @@ header{
 }
 
 main{
-    
+    width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
     clear: both;
 }
 
@@ -128,7 +130,7 @@ span{
 }
 
 .news{
-    margin-top: 106px;
+    margin-top: 848px;
     width: 1140px;
     height: auto;
     margin-left: auto;
@@ -142,4 +144,39 @@ span{
     color: #515151;
     font-family: "Roboto";
     text-align: center;
+}
+
+.card-news{
+    margin-top: 80px;
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+h2{
+    color: #555252;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.decoration-text{
+    background-color: #4ec6ab;
+    height: 3px;
+    display: block;
+    width: 137px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+button{
+    color: white;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 17px 42px;
+    background-color: #4ec6ab;
+    border: 2px solid #4ec6ab;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
