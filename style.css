@@ -22,13 +22,14 @@ span{
     font-family: 'Roboto';
     text-transform: uppercase;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 200;
     float: left;
     cursor: pointer;
     list-style-type: none;
-    margin-right: 445px;
+    margin-right: 432px;
 }
 .nav-bar{
+    text-transform: uppercase;
     margin-top: 10px;
     font-weight:bold;
     float: left;
@@ -121,6 +122,7 @@ span{
 .info-text{
   margin-left: 15px;
   margin-top: 10px;
+  text-transform: uppercase;
   
 }
 .info-price{
@@ -138,7 +140,7 @@ span{
 }
 
 .title-news{
-    
+    text-transform: uppercase;
     font-size: 48px;
     font-weight: 900;
     color: #515151;
