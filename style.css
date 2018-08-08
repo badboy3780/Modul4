@@ -1,34 +1,145 @@
-.block{
-    margin-left: 10px;
-    width: 50px;
-    height: 50px;
-    float: left;
-    background: blue;
+header{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    font-family: 'Open Sans';
+    padding: 10px 0 100px;
 }
-.block:nth-child(3n){
-    margin-left: 10px;
-    width: 50px;
-    height: 50px;
-    float: left;
-    background: red;
+
+main{
+    
+    clear: both;
 }
-.first{
-    margin-left: 10px;
+
+span{
+    color: #1abc9c;
+    font-weight: 900;
+}
+.logo{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    margin-right: 445px;
+}
+.nav-bar{
+    margin-top: 10px;
+    font-weight:bold;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 32px;
+}
+
+.list{
+    margin-left: 520px;
+}
+
+.decoration{
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    height: 7px;
+    background: rgb(98,202,178);
+}
+
+
+
+
+/*//////////////////Main Part//////////////////// */
+
+
+.product{
+    margin-top: 50px;
+    width: 1140px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    
+    font-size: 48px;
+    font-weight: 900;
+    color: #515151;
+    font-family: "Roboto";
+    text-align: center;
+    text-transform: uppercase;
     
 }
-.first:focus{
-    margin-left: 10px;
-    border: 2px solid blue;
+
+.card{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    top: 80px;
+    width: 255px;
+    height: 322px;
+    position: relative;
+    float: left;
+}
+
+.product-info{
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    top: 281px;
+   
+}
+
+
+.name-product{
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    width: 200px;
+    height: 40px;
+    background: rgb(50,50,50);
+    float: left;
+}
+
+
+
+.card-price{
     
+    float: left;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    width: 55px;
+    height: 40px;
+    background: rgb(135,144,141);
+    color: white;
 }
 
-.req:required{
-    border: 2px solid purple;
+.info-text{
+  margin-left: 15px;
+  margin-top: 10px;
+  
+}
+.info-price{
+  margin-left: 14px;
+  margin-top: 9px;
+  
 }
 
-/*
-.req:disabled{
-    border: 1px solid grey;
+.news{
+    margin-top: 106px;
+    width: 1140px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-*/
 
+.title-news{
+    
+    font-size: 48px;
+    font-weight: 900;
+    color: #515151;
+    font-family: "Roboto";
+    text-align: center;
+}
