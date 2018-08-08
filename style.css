@@ -180,3 +180,20 @@ button{
     margin-top: 20px;
     margin-bottom: 80px;
 }
+
+.card:hover .product-info .name-product{
+    
+    background-color: #1abc9c;
+    cursor: pointer;
+}
+.card:hover .product-info .card-price{
+    
+    background-color: #7fd9c7;
+    cursor: pointer;
+    
+}
+.card:hover img{
+    
+    cursor: pointer;
+    
+}
